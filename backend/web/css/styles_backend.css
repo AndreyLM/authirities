@@ -1,0 +1,13 @@
+.backend_upl_img {
+    float:left;
+    border: solid 1px;
+    padding: 3px;
+    margin: 3px;
+}
+
+
+
+.backend_upl_img img {
+    display: block;
+    width: 100%;
+}

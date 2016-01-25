@@ -1,0 +1,121 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_mnu ul {
+		display: none;
+		position: absolute;
+		top: 35px;
+		background-color: #368AAE;
+		width: 100%;		
+	}
+
+	.main_mnu ul li {
+		display: block;
+	}
+
+	.header_title h1 {
+		font-size: 18pt;
+	}
+
+	.send_msg .button {
+		margin: auto;
+		float: none;
+	}
+
+	.description {
+		text-align: center;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_links {
+		display: none;
+		background-color: #6C7277;
+		vertical-align: middle;
+		position: absolute;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.logout {
+		display: none;
+		background-color: #6C7277;
+		vertical-align: middle;
+		position: absolute;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.header_title h1 {
+		font-size: 14pt;
+	}
+
+	.send_msg .button {
+		margin: auto;
+		float: none;
+		font-size: 10pt;
+	}
+
+	.description {
+		text-align: center;
+		font-size: 14pt;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_contacts {
+		font-size: 14pt;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_links {
+		display: inline-block !important;
+	}
+
+	.logout {
+		display: inline-block !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.main_mnu ul {
+		display: block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
